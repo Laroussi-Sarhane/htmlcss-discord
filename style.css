@@ -151,60 +151,69 @@ nav ul li a:hover{
 /* box2 */
 
 .container2{
-  background-color: rgb(145, 96, 5);
-  height: 400px;
+  background-color:grey;
+  height: 500px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items:center;
+  display: inline block;
+  filter: alpha(opacity=80);
 }
 .testo2{
-  height: 250px;
+  height: 300px;
   width: 200px;
   display: inline-block;
-  background-color:pink;
+  flex-direction: column;
   display: flex;
   justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:10px;
+  filter: alpha(opacity=80);
 }
 .immagine2{
-  height: 250px;
+  height: 300px;
   width: 400px;
   display: inline-block;
-  background-color: blue;
+  filter: alpha(opacity=80);
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 /* fine box2 */
 
 /* box3 */
 .container3{
-  background-color: yellowgreen;
-  height: 400px;
+  background-color: white;
+  height: 500px;
   margin: auto;
   display: flex;
   justify-content: center;
   align-items:center;
+  display: inline block
 }
 .immagine3{
   height: 250px;
   width: 400px;
   display: inline-block;
-  background-color: blue;
+  background-color:white;
   display: flex;
   justify-content: center;
 }
 .testo3{
-  height: 250px;
+  height: 300px;
   width: 200px;
   display: inline-block;
-  background-color: pink;
+  flex-direction: column;
+  background-color:white;
   display: flex;
   justify-content: center;
-  }
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:10px;
   /* fine box3 */
 
   /*  box 4*/
-
+  
   .container4{
     background-color: rgb(104, 153, 6);
     height: 600px;
