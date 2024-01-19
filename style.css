@@ -151,7 +151,7 @@ nav ul li a:hover{
 /* box2 */
 
 .container2{
-  background-color:grey;
+  background-color:#F6F6F6;
   height: 500px;
   margin: auto;
   display: flex;
@@ -210,32 +210,73 @@ nav ul li a:hover{
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight:10px;
+}
+  
   /* fine box3 */
 
   /*  box 4*/
-  .container-box-img{
-    background-color: rgb(104, 153, 6);
-      height: 600px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-      align-items:center;
+  .container4{
+    background-color:white;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
   }
+  .testo4{
+  display: flex;
+  justify-content: flex-start;
+  height:30%;
+  max-width: 100%;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size:large;
+  }
+  .testo-paragrafo{
+  display: flex;
+  justify-content:center;;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+  
 
+  }
+  .immagine4{
+  display: flex;
+  justify-content:center;
+  font-size: larger;
+  margin: auto;
+  }
+  .testo-bottone{
+    display: flex;
+  justify-content:flex-end
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+    
+  }
+  .stars{
+    max-width: 300px;
+    
+  }
   
   .quadrato{
-    height: 500px;
-    width: 600px;
+    height: 900px;
+    width: 800px;
     display: inline-block;
-    background-color: blue;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    filter: alpha(opacity=80)
   }
   /*  fine box 4*/
 
   /* footer */
   .box{
-    background-color: rgb(48, 71, 1);
+    background-color:white;
   height: 500px;
   margin: auto;
   display: flex;
