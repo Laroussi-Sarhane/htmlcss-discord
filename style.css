@@ -51,16 +51,22 @@ nav ul li a:hover{
   background-image: url(img/jumbo.png);
   max-width: 100%;
   background-size:cover;
-  flex-direction: column;
+  flex-direction: row;
+  
 }
 .h1-jumbo{
   display: flex;
   justify-content: flex-start;
+  height:30%;
+  max-width: 100%;
+  
  
 }
 .p-jumbo{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  height:50%;
   
 
 }
@@ -69,15 +75,29 @@ nav ul li a:hover{
   width: 500px;
   margin-top: 50px;
   display: flex;
-  justify-content: center;
-  align-items:flex-end;
+  flex-direction: column;
   margin: auto;
   filter: alpha(opacity=80);
 }
 .bottoni-jumb{
   display: flex;
-  justify-content: center;
- justify-content: flex-end;
+  border: radius 10%;
+  justify-content:center;
+  height:20%;
+  justify-content:space-around;
+  display: inline-block;
+  
+}
+.bottone-her{
+  border: radius 10%;
+  width: 144px;
+  height: 50px;
+}
+.bottone-hero-scarica{
+  border: radius 10%;
+  width: 170px;
+  max-height: 100%;
+
 }
 /* jambotron fine */
 
