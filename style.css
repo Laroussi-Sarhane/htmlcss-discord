@@ -73,6 +73,9 @@ nav ul li a:hover{
   justify-content: center;
   flex-direction: column;
   height:50%;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 3px;
   
 
 }
@@ -141,6 +144,7 @@ nav ul li a:hover{
   display: flex;
   justify-content: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:10px;
 }
 /* fine box1 */
 
