@@ -95,6 +95,7 @@ nav ul li a:hover{
   height:20%;
   justify-content:space-around;
   box-sizing: border-box;
+  
 }
 .bottone-her{
   border: radius 10px;
@@ -278,11 +279,11 @@ nav ul li a:hover{
     padding:10px 15px;
     height:50px;
     filter: alpha(opacity=80);
+    box-sizing: ;
   }
   .bottoni-img{
     border: radius:10%;
     width: 250px;
-    
     padding:10px 15px;
     filter: alpha(opacity=80); 
     
@@ -319,6 +320,7 @@ nav ul li a:hover{
   display: flex;
   justify-content: center;
   align-items:center;
+  text-decoration: none;
   }
   .colonne{
     text-decoration: none;
@@ -327,11 +329,14 @@ nav ul li a:hover{
     filter: alpha(opacity=80);
     display: flex;
     filter: alpha(opacity=80);
+    text-decoration: none;
+    justify-content: space-around;
     
   }
   .colonna1{
     height: 400px;
     width:200px;
+    color: white;
     
     filter: alpha(opacity=80);
     display: flex;
@@ -343,6 +348,8 @@ nav ul li a:hover{
     filter: alpha(opacity=80);
     display: flex;
     border: solid black;
+    color: white;
+    text-decoration: none;
   }
   .last-box{
     height: 100px;
@@ -385,8 +392,22 @@ nav ul li a:hover{
   box-sizing: border-box;
   width: 65px;
   }
-  
-  
+  #titolo-colonna{
+    color: #8EA1E1;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  #ita{
+   display: inline;
+   width:20%;
+   width: 25%;
+  }
+  #move{
+    color: #8EA1E1;
+
+  }
 
 
   
